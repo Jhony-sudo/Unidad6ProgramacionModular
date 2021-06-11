@@ -2,16 +2,16 @@ package src;
 
 import java.util.Random;
 
-public class Ej1 {
+public class Ej4 {
 
     public static void main(String[] args) {
-        Ej1 Iniciar = new Ej1();
+        Ej4 Iniciar = new Ej4();
     }
 
     Random r = new Random();
     int[] Numeros = new int[10];
 
-    public Ej1() {
+    public Ej4() {
         int[] Arreglo2 = LlenaryMostrarArreglo(Numeros);
         int Mayor = DeterminarMayor(Arreglo2);
         DeterminarDistancia(Mayor, Arreglo2);
