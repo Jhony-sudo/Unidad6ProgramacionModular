@@ -32,7 +32,7 @@ public class Ej10 {
             System.out.println("Matriz Ingresada             "   +  "      Matriz transpuesta");
             for (int i = 0, a = 0; i < Arr.length || a < Arr2.length; i++, a++) {
 
-            // Si no se han pintado todas las filas de la matriz A
+        
                 if (i < Arr.length) {
                     System.out.print("|");
 
@@ -46,14 +46,13 @@ public class Ej10 {
                     System.out.print("|");
                 } 
                 else {
-            // Si ya se pintaron todas las filas e la matriz A
-            // Esto lo hago para que la matriz B siempre quede alineada en caso de la matriz A tenga menos filas
+            
                 for (i = 0; i < ColumnasMatriz2 - 1; i++) {
                 System.out.print("\t");
                  }
                }
 
-            // Si no se han pintado todas las filas de la matriz A
+            
             if (a < Arr2.length) {
             System.out.print("\t\t|");
 
